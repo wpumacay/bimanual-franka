@@ -172,3 +172,7 @@ cython_debug/
 
 # Exclude reference codebases
 references/
+
+# Exclude some log files
+MUJOCO_LOG.TXT
+
