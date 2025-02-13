@@ -145,7 +145,7 @@
     <light name="top" pos="0 0 2" mode="trackcom"/>
 
     <!-- LEFT TABLE -->
-    <body name="fa-table" childclass="table" pos="0 -0.5 0">
+    <body name="fa-table" childclass="table" pos="0 0 0" euler="0 0 1.5707963267948966">
       <geom name="fa-mesh" mesh="table" class="table-visual" material="table"/>
       <geom name="fa-mesh_legs" mesh="table_legs" class="table-visual" material="table_legs"/>
       <geom name="fa-collider_001" mesh="table_collision_001" class="table-collision"/>
@@ -157,21 +157,8 @@
       <geom name="fa-collider_007" mesh="table_collision_007" class="table-collision"/>
     </body>
 
-    <!-- RIGHT TABLE -->
-    <body name="fb-table" childclass="table" pos="0 0.5 0">
-      <geom name="fb-mesh" mesh="table" class="table-visual" material="table"/>
-      <geom name="fb-mesh_legs" mesh="table_legs" class="table-visual" material="table_legs"/>
-      <geom name="fb-collider_001" mesh="table_collision_001" class="table-collision"/>
-      <geom name="fb-collider_002" mesh="table_collision_002" class="table-collision"/>
-      <geom name="fb-collider_003" mesh="table_collision_003" class="table-collision"/>
-      <geom name="fb-collider_004" mesh="table_collision_004" class="table-collision"/>
-      <geom name="fb-collider_005" mesh="table_collision_005" class="table-collision"/>
-      <geom name="fb-collider_006" mesh="table_collision_006" class="table-collision"/>
-      <geom name="fb-collider_007" mesh="table_collision_007" class="table-collision"/>
-    </body>
-
     <!-- LEFT PANDA -->
-    <body name="fa-link0" childclass="panda" pos="0 -0.5 0.95">
+    <body name="fa-link0" childclass="panda" pos="0 -0.35 0.95">
       <inertial mass="0.629769" pos="-0.041018 -0.00014 0.049974"
         fullinertia="0.00315 0.00388 0.004285 8.2904e-7 0.00015 8.2299e-6"/>
       <geom mesh="link0_0" material="off_white" class="visual"/>
@@ -304,7 +291,7 @@
     </body>
 
     <!-- RIGHT PANDA -->
-    <body name="fb-link0" childclass="panda" pos="0 0.5 0.95">
+    <body name="fb-link0" childclass="panda" pos="0 0.35 0.95">
       <inertial mass="0.629769" pos="-0.041018 -0.00014 0.049974"
         fullinertia="0.00315 0.00388 0.004285 8.2904e-7 0.00015 8.2299e-6"/>
       <geom mesh="link0_0" material="off_white" class="visual"/>
